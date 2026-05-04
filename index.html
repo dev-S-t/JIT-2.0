@@ -1618,6 +1618,35 @@
                         id="nav-research" onclick="switchTab('research')">
                         <span class="material-symbols-outlined text-lg">science</span> Concepts &amp; Research
                     </button>
+                    <!-- Reports Dropdown -->
+                    <div class="relative group h-full">
+                        <button
+                            class="border-b-2 border-transparent text-gray-500 hover:text-gray-900 hover:border-gray-300 px-3 pt-1 text-sm font-medium h-full flex items-center gap-2 transition-all hover:bg-gray-50">
+                            <span class="material-symbols-outlined text-lg">description</span> Reports
+                        </button>
+                        <div
+                            class="absolute right-0 top-full w-64 bg-white border border-gray-200 shadow-xl rounded-b-xl overflow-hidden hidden group-hover:block transition-all z-50">
+                            <a class="block px-4 py-3 text-sm text-gray-700 hover:bg-red-50 hover:text-red-700 border-b border-gray-100 flex items-center gap-3"
+                                href="data_analysis_eda.html" target="_blank">
+                                <span class="material-symbols-outlined text-base">analytics</span> Exploratory Data
+                                Analysis
+                            </a>
+                            <a class="block px-4 py-3 text-sm text-gray-700 hover:bg-red-50 hover:text-red-700 border-b border-gray-100 flex items-center gap-3"
+                                href="jit_demand_prediction.html" target="_blank">
+                                <span class="material-symbols-outlined text-base">trending_up</span> Demand Prediction
+                                Model
+                            </a>
+                            <a class="block px-4 py-3 text-sm text-gray-700 hover:bg-red-50 hover:text-red-700 border-b border-gray-100 flex items-center gap-3"
+                                href="micro_expiry_analysis.html" target="_blank">
+                                <span class="material-symbols-outlined text-base">timer</span> Micro-Expiry Analysis
+                            </a>
+                            <a class="block px-4 py-3 text-sm text-gray-700 hover:bg-red-50 hover:text-red-700 flex items-center gap-3"
+                                href="statistical_validation.html" target="_blank">
+                                <span class="material-symbols-outlined text-base">verified</span> Statistical
+                                Validation
+                            </a>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -1987,6 +2016,53 @@
                         This approach effectively absorbs the noise in prediction models, making JIT viable for
                         life-critical applications where shortage is not an option.
                     </div>
+
+                    <!-- New Section: Analytical Reports -->
+                    <section class="mt-16">
+                        <h3 class="text-2xl font-extrabold text-gray-900 mb-6">Detailed Analytical Reports</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <a href="data_analysis_eda.html" target="_blank"
+                                class="flex items-center gap-4 p-4 rounded-xl border border-gray-200 hover:border-red-300 hover:bg-red-50 transition-all group">
+                                <div class="bg-red-100 p-3 rounded-lg text-red-600 group-hover:bg-red-200">
+                                    <span class="material-symbols-outlined">analytics</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-900">Exploratory Data Analysis</h4>
+                                    <p class="text-xs text-gray-500">Visualizing hospital demand patterns and seasonality.</p>
+                                </div>
+                            </a>
+                            <a href="jit_demand_prediction.html" target="_blank"
+                                class="flex items-center gap-4 p-4 rounded-xl border border-gray-200 hover:border-red-300 hover:bg-red-50 transition-all group">
+                                <div class="bg-red-100 p-3 rounded-lg text-red-600 group-hover:bg-red-200">
+                                    <span class="material-symbols-outlined">trending_up</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-900">Demand Prediction Model</h4>
+                                    <p class="text-xs text-gray-500">XGBoost & SARIMA model training and evaluation.</p>
+                                </div>
+                            </a>
+                            <a href="micro_expiry_analysis.html" target="_blank"
+                                class="flex items-center gap-4 p-4 rounded-xl border border-gray-200 hover:border-red-300 hover:bg-red-50 transition-all group">
+                                <div class="bg-red-100 p-3 rounded-lg text-red-600 group-hover:bg-red-200">
+                                    <span class="material-symbols-outlined">timer</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-900">Micro-Expiry Analysis</h4>
+                                    <p class="text-xs text-gray-500">Evaluating the impact of 2-day life extensions.</p>
+                                </div>
+                            </a>
+                            <a href="statistical_validation.html" target="_blank"
+                                class="flex items-center gap-4 p-4 rounded-xl border border-gray-200 hover:border-red-300 hover:bg-red-50 transition-all group">
+                                <div class="bg-red-100 p-3 rounded-lg text-red-600 group-hover:bg-red-200">
+                                    <span class="material-symbols-outlined">verified</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-900">Statistical Validation</h4>
+                                    <p class="text-xs text-gray-500">Confidence intervals and Monte Carlo robustness tests.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>

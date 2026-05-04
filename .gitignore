@@ -13,8 +13,6 @@ wheels/
 *.txt
 *.pdf
 *.text
-*.html
-!index.html
 *.zip
 
 # Specifically include these folders
