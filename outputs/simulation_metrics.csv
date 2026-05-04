@@ -1,0 +1,4 @@
+model,total_supply,total_demand,total_used,total_wasted,total_shortage,shortage_days,extensions_triggered,wastage_rate,shortage_rate,fulfillment_rate
+Traditional,2880,2469,2469,323,0,0,0,11.215277777777779,0.0,100.0
+JIT-Only,2371,2469,2350,0,119,20,0,0.0,4.819765087079789,95.18023491292021
+JIT+Micro,2515,2469,2460,0,9,2,52,0.0,0.3645200486026731,99.63547995139733
