@@ -1,0 +1,24 @@
+[project]
+name = "bbms"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.135.1",
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "kaleido>=1.2.0",
+    "matplotlib>=3.10.8",
+    "nbformat>=5.10.4",
+    "numpy>=2.4.0",
+    "pandas>=2.3.3",
+    "plotly>=6.5.1",
+    "pydantic>=2.12.5",
+    "pymupdf>=1.26.7",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.16.3",
+    "statsmodels>=0.14.6",
+    "uvicorn>=0.41.0",
+    "xgboost>=3.1.2",
+]
